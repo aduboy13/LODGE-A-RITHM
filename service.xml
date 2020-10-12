@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="service.xsl"?>
+<service xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="service.xsd"> 
+	
+	<booking>
+		<id>1256513</id>
+		<name>Cab</name>
+		<catagory>A234-468</catagory>
+		<incharge>Patt</incharge>
+		<phone>66515593</phone>
+		<start>2020-08-20</start>
+		<end>2020-08-25</end>
+
+	</booking>
+<booking>
+		<id>1256334</id>
+		<name>Spa</name>
+		<catagory>729A-2748</catagory>
+		<incharge>Shivam</incharge>
+		<phone>96675681</phone>
+		<start>2020-08-01</start>
+		<end>2020-09-12</end>
+
+	</booking><booking>
+		<id>1256278</id>
+		<name>Laundry</name>
+		<catagory>2702-46JD</catagory>
+		<incharge>Kamlesh</incharge>
+		<phone>25715327</phone>
+		<start>2020-08-10</start>
+		<end>2020-08-15</end>
+
+	</booking><booking>
+		<id>1256997</id>
+		<name>Pool</name>
+		<catagory>JR90-2634</catagory>
+		<incharge>Andre</incharge>
+		<phone>66215845</phone>
+		<start>2020-07-20</start>
+		<end>2020-08-05</end>
+
+	</booking>
+	
+</service>
