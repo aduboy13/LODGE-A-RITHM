@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="ISO8859-1" ?>
+<webpagedevelop>
+	<hotel>
+		<name>Holiday Inn</name>
+		<rating>5.3</rating>
+		<location>Goa</location>
+		<cost>585rs</cost>
+	</hotel>
+	<hotel>
+		<name>Crown Plaza</name>
+		<rating>4.8</rating>
+		<location>Mumbai</location>
+		<cost>254rs</cost>
+	</hotel>
+	<hotel>
+		<name>TAJ</name>
+		<rating>7.4</rating>
+		<location>Mumbai</location>
+		<cost>772rs</cost>
+	</hotel>
+	
+	<hotel>
+		<name>Four Squares</name>
+		<rating>8.7</rating>
+		<location>Delhi</location>
+		<cost>746rs</cost>
+	</hotel>
+	<hotel>
+		<name>Ritz Calrlton</name>
+		<rating>6.2</rating>
+		<location>Bangalore</location>		
+		<cost>793rs</cost>
+	</hotel>
+</webpagedevelop>
