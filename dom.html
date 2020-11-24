@@ -2,7 +2,7 @@
 <style>
     table,th,td
     {
-     border:3px solid yellow;
+     border:3px solid #00887A;
     }
     th,td{
         padding: 6px;
@@ -44,7 +44,7 @@
         {
             var i;
             var xmlDoc=xml.responseXML;
-            var t="<tr><th>NAME</th><th>RATINGS</th></tr>";
+            var t="<tr><th>NAME</th><th>RATINGS</th><th>LOCATION</th><th>COST</th></tr>";
             var x=xmlDoc.getElementsByTagName("hotel");
             for(i=0;i<x.length;i++)
             {
@@ -52,6 +52,10 @@
                 x[i].getElementsByTagName("name")[0].childNodes[0].nodeValue +
                 "</td><td>" +
                 x[i].getElementsByTagName("rating")[0].childNodes[0].nodeValue +
+			"</td><td>" +
+			 x[i].getElementsByTagName("location")[0].childNodes[0].nodeValue +
+			"</td><td>" +
+			 x[i].getElementsByTagName("cost")[0].childNodes[0].nodeValue +
                 "</td></tr>";
             }
             document.getElementById("demo").innerHTML=t;
